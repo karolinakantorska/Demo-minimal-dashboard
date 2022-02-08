@@ -57,7 +57,7 @@ export default function AppTasks() {
     initialValues: {
       checked: [TASKS[2]]
     },
-    onSubmit: (values) => {
+    onSubmit: () => {
       //console.log(values);
     }
   });
